@@ -1,1 +1,0 @@
-# reactjs-coronavirus-maps
