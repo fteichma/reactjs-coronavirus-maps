@@ -91,7 +91,7 @@ export default [
             24,
             54
         ],
-        "name": "United Arab Emirates",
+        "name": "UAE",
         "country_code": "AE",
         "capital": "Abu Dhabi"
     },
@@ -351,7 +351,7 @@ export default [
             18.5,
             -63.41666666
         ],
-        "name": "Saint Barth\u00e9lemy",
+        "name": "St. Barth",
         "country_code": "BL",
         "capital": "Gustavia"
     },
@@ -498,7 +498,7 @@ export default [
             7,
             21
         ],
-        "name": "Central African Republic",
+        "name": "CAR",
         "country_code": "CF",
         "capital": "Bangui"
     },
@@ -624,7 +624,7 @@ export default [
             0,
             25
         ],
-        "name": "DR Congo",
+        "name": "DRC",
         "country_code": "CD",
         "capital": "Kinshasa"
     },
@@ -636,7 +636,7 @@ export default [
             -1,
             15
         ],
-        "name": "Republic of the Congo",
+        "name": "Congo",
         "country_code": "CG",
         "capital": "Brazzaville"
     },
@@ -684,7 +684,7 @@ export default [
             16,
             -24
         ],
-        "name": "Cape Verde",
+        "name": "Cabo Verde",
         "country_code": "CV",
         "capital": "Praia"
     },
@@ -768,9 +768,16 @@ export default [
             49.75,
             15.5
         ],
-        "name": "Czech Republic",
+        "name": "Czechia",
         "country_code": "CZ",
         "capital": "Prague"
+    },
+    {
+        "latlng": [
+            35.414583,
+            139.68205
+        ],
+        "name": "Diamond Princess",
     },
     {
         "timezones": [
@@ -988,7 +995,7 @@ export default [
             62,
             -7
         ],
-        "name": "Faroe Islands",
+        "name": "Faeroe Islands",
         "country_code": "FO",
         "capital": "T\u00f3rshavn"
     },
@@ -1173,6 +1180,13 @@ export default [
         "name": "Grenada",
         "country_code": "GD",
         "capital": "St. George's"
+    },
+    {
+        "latlng": [
+            13.2879,
+            -61.26667
+        ],
+        "name": "St. Vincent Grenadines"
     },
     {
         "timezones": [
@@ -1554,7 +1568,7 @@ export default [
             37,
             127.5
         ],
-        "name": "South Korea",
+        "name": "S. Korea",
         "country_code": "KR",
         "capital": "Seoul"
     },
@@ -1720,7 +1734,7 @@ export default [
             22.16666666,
             113.55
         ],
-        "name": "Macau",
+        "name": "Macao",
         "country_code": "MO",
         "capital": null
     },
@@ -1839,7 +1853,7 @@ export default [
             41.83333333,
             22
         ],
-        "name": "Macedonia",
+        "name": "North Macedonia",
         "country_code": "MK",
         "capital": "Skopje"
     },
@@ -2666,7 +2680,7 @@ export default [
             -26.5,
             31.5
         ],
-        "name": "Swaziland",
+        "name": "Eswatini",
         "country_code": "SZ",
         "capital": "Lobamba"
     },
@@ -2714,7 +2728,7 @@ export default [
             21.75,
             -71.58333333
         ],
-        "name": "Turks and Caicos Islands",
+        "name": "Turks and Caicos",
         "country_code": "TC",
         "capital": "Cockburn Town"
     },

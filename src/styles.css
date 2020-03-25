@@ -9,8 +9,9 @@ body {
 }
 
 .leaflet-container {
-  height: 600px;
   width: 100%;
+  height: 100vh;
+  background-color: #000024;
 }
 
 .leaflet-div-icon {
@@ -23,13 +24,21 @@ body {
   color:#ffffff99!important;
 }
 
+.popup {
+  margin: 0; padding: 0 0 5px; line-height: 1.2;
+}
+
+.popup h1 {
+  font-size: 14px;
+}
+
+.popup p{
+  margin: 0!important; line-height: 1.5;
+}
+
 .info-box {
   padding: 1em 2em;
-  position: fixed;
-  left:1em;
-  bottom:1em;
-  z-index: 400;
-  border-radius: 0.5em;
+  border-radius: 10px;
   width: 20vw;
 }
 .info-box p{
@@ -38,9 +47,23 @@ body {
   margin: 0;
 }
 
+.info-box small:first-child {
+  margin: 0.5em 0 0 0;
+}
+
+.info-box small{
+  margin: 0;
+  padding: 0; 
+  line-height: 1.5; 
+  width: 100%;
+}
+
 #total {
-  width: 40vw;
-  max-width: 275px;
+  position: fixed;
+  left:1em;
+  bottom:1em;
+  z-index: 400;
+  width: 300px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5); 
@@ -53,20 +76,35 @@ box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 #total b{
-  width: 60%;
+  width: 100%;
   padding-right: 1em;
 }
 
 #total span {
   font-size: 22px;
-  text-align: right;
+}
+
+#total small{
+  font-style: italic;
+  font-size: 11px;
+  text-align: justify;
 }
 
 @media screen and (max-width:600px){
+  #total {
+    left:0;
+    right: 0;
+    margin: auto;
+    width: 75%;
+  }
+  #total span {
+    font-size: 18px;
+  }
   #total p{
+    font-size: 14px;
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
   }
   #total b{
     width: 100%;
@@ -95,6 +133,27 @@ a:visited {
   color: grey;
 }
 
-small {
-  font-size: 11px;
+#gh {
+  z-index: 400;
+  position: fixed;
+  right: 0;
+  top:0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 100px 100px 0;
+  border-color: transparent rgb(65, 65, 65) transparent transparent;
+  color:#ffffff99!important;
+}
+
+#gh p{
+  margin: 0;
+}
+
+#gh img {
+  width: 35px;
+  position: fixed;
+  right: 10px;
+  top:10px;
+  filter: invert(1);
 }
