@@ -1026,9 +1026,21 @@ export default [
             54,
             -2
         ],
-        "name": "United Kingdom",
+        "name": "UK",
         "country_code": "GB",
         "capital": "London"
+    },
+    {
+        "timezones": [
+            "Europe/London"
+        ],
+        "latlng": [
+            49.372284,
+            -2.364351
+        ],
+        "name": "Channel Islands",
+        "country_code": "GB",
+        "capital": "Saint Peter Port"
     },
     {
         "timezones": [
@@ -2962,7 +2974,7 @@ export default [
             38,
             -97
         ],
-        "name": "United States",
+        "name": "USA",
         "country_code": "US",
         "capital": "Washington D.C."
     },
