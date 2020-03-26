@@ -37,7 +37,7 @@ class App extends Component {
     axios.get("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php", {
       "headers": {
         "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-        "x-rapidapi-key": "80e047913amsh644f35962c028e6p1aa841jsn7e10886a1614"
+        "x-rapidapi-key": ""
       }
     })
       .then(response => {
@@ -53,7 +53,7 @@ class App extends Component {
     axios.get("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
       "headers": {
         "x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com",
-        "x-rapidapi-key": "80e047913amsh644f35962c028e6p1aa841jsn7e10886a1614"
+        "x-rapidapi-key": ""
       }
     })
       .then(response => {
