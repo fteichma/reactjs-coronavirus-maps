@@ -92,8 +92,8 @@ class App extends Component {
             data={worldGeoJSON}
             style={() => ({
               weight: 0.5,
-              color: "#40403e",
-              fillColor: "#2A2A28",
+              color: "#292929",
+              fillColor: "rgb(65, 65, 65)",
               fillOpacity: 1,
             })}
           />
