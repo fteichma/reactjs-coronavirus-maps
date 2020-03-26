@@ -99,7 +99,7 @@ class App extends Component {
           />
           {this.state.data.map((value, index) => {
             let cases = value.cases.replace(/,/g, "");
-            let cases_ratio = Math.pow(cases, 0.33);
+            let cases_ratio = Math.pow(cases, 0.28);
             return (
               (countryCode.find((el) => el.name === value.country_name)) ?
                 (<Marker key={index} position={
