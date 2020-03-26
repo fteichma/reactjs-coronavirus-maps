@@ -12,8 +12,8 @@ const url = "data:image/svg+xml,%3Csvg width='50' height='50' viewBox='0 0 50 50
 
 const customMarker = (ratio) => new L.icon({
   iconUrl: url,
-  iconSize: 1 * ratio,
-  iconAnchor: [0.5 * ratio, 0.5 * ratio],
+  iconSize: 2 * ratio,
+  iconAnchor: [1 * ratio, 1 * ratio],
 });
 
 const axios = require('axios');
