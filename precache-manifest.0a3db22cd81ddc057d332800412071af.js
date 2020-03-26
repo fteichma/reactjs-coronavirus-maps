@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "18c906ea466923c9768e83964bbb9928",
+    "revision": "6b443306e66ca2630c00ba4d4e3c4de0",
     "url": "/reactjs-coronavirus-maps/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-coronavirus-maps/static/css/2.7c35e809.chunk.css"
   },
   {
-    "revision": "a74a08604465aa2731d7",
-    "url": "/reactjs-coronavirus-maps/static/css/main.c6a5466e.chunk.css"
+    "revision": "f15b24679878bed86e0c",
+    "url": "/reactjs-coronavirus-maps/static/css/main.bd130ce3.chunk.css"
   },
   {
     "revision": "a812a2138677e4c87722",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reactjs-coronavirus-maps/static/js/2.9b42aec9.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a74a08604465aa2731d7",
-    "url": "/reactjs-coronavirus-maps/static/js/main.517f233e.chunk.js"
+    "revision": "f15b24679878bed86e0c",
+    "url": "/reactjs-coronavirus-maps/static/js/main.e528e682.chunk.js"
   },
   {
     "revision": "31cf46d15cf8356c4f47",
