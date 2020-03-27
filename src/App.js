@@ -151,7 +151,7 @@ class App extends Component {
           &copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors |
           Data from <a href="https://coronavirus-monitor.p.rapidapi.com/">rapidapi</a> |
           I am not responsible for the veracity of the information provided |
-          Developed by: <a href="https://github.com/fteichma/">Fabian Teichmann</a>
+          Developed by <a href="https://github.com/fteichma/">Fabian Teichmann</a>
         </div>
         <div className="info-box" id="choices_desktop">
           <ul>
@@ -170,13 +170,13 @@ class App extends Component {
           </ul>
         </div>
         <div className="info-box" id="total">
-          <p><b>Total cases: </b><span style={{ color: '#A90000' }}>{this.state.dataTotal.total_cases}</span></p>
-          <p><b>New cases: </b><span style={{ color: '#A90000' }}>{this.state.dataTotal.new_cases}</span></p>
-          <p><b>Total recovered: </b><span style={{ color: '#28a745' }}>{this.state.dataTotal.total_recovered}</span></p>
-          <p><b>Total deaths: </b><span>{this.state.dataTotal.total_deaths}</span></p>
-          <p><b>New deaths: </b><span>{this.state.dataTotal.new_deaths}</span></p>
+          <p><b>Total cases </b><span style={{ color: '#A90000' }}>{this.state.dataTotal.total_cases}</span></p>
+          <p><b>New cases </b><span style={{ color: '#A90000' }}>{this.state.dataTotal.new_cases}</span></p>
+          <p><b>Total recovered </b><span style={{ color: '#28a745' }}>{this.state.dataTotal.total_recovered}</span></p>
+          <p><b>Total deaths </b><span>{this.state.dataTotal.total_deaths}</span></p>
+          <p><b>New deaths </b><span>{this.state.dataTotal.new_deaths}</span></p>
           <div className="select">
-            <label htmlFor="select"><b>Choose a view:</b></label>
+            <label htmlFor="select"><b>Choose a view</b></label>
             <div id="select">
               <select value={this.state.selected} name="select" onChange={this.handleChange}>
                 <option value="cases">Cases</option>
