@@ -16,7 +16,7 @@
     "react-dom": "^16.13.1",
     "react-feather": "^2.0.3",
     "react-leaflet": "^2.6.3",
-    "react-scripts": "3.4.1"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
